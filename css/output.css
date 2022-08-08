@@ -626,16 +626,16 @@ video {
   bottom: 0.25rem;
 }
 
-.right-\[340px\]{
-  right: 340px;
+.right-\[20px\]{
+  right: 20px;
 }
 
-.-top-\[1px\]{
-  top: -1px;
+.-top-\[0\.5px\]{
+  top: -0.5px;
 }
 
-.left-\[350px\]{
-  left: 350px;
+.left-\[8px\]{
+  left: 8px;
 }
 
 .top-\[80px\]{
@@ -655,12 +655,24 @@ video {
   margin-right: auto;
 }
 
+.mt-\[155px\]{
+  margin-top: 155px;
+}
+
 .mt-3{
   margin-top: 0.75rem;
 }
 
+.mt-\[100px\]{
+  margin-top: 100px;
+}
+
 .mt-5{
   margin-top: 1.25rem;
+}
+
+.mb-\[100px\]{
+  margin-bottom: 100px;
 }
 
 .ml-5{
@@ -683,20 +695,16 @@ video {
   height: 100vh;
 }
 
-.h-\[78px\]{
-  height: 78px;
+.h-\[400px\]{
+  height: 400px;
 }
 
 .h-\[780px\]{
   height: 780px;
 }
 
-.h-\[400px\]{
-  height: 400px;
-}
-
-.h-\[50px\]{
-  height: 50px;
+.h-\[30px\]{
+  height: 30px;
 }
 
 .w-full{
@@ -707,24 +715,16 @@ video {
   width: 100vw;
 }
 
-.w-\[478px\]{
-  width: 478px;
+.w-\[150px\]{
+  width: 150px;
 }
 
-.w-\[334px\]{
-  width: 334px;
-}
-
-.w-\[455px\]{
-  width: 455px;
+.w-\[180px\]{
+  width: 180px;
 }
 
 .w-\[400px\]{
   width: 400px;
-}
-
-.w-\[300px\]{
-  width: 300px;
 }
 
 .w-\[500px\]{
@@ -747,18 +747,8 @@ video {
   align-items: center;
 }
 
-.space-x-\[150px\] > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(150px * var(--tw-space-x-reverse));
-  margin-left: calc(150px * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .rounded-lg{
   border-radius: 0.5rem;
-}
-
-.border-4{
-  border-width: 4px;
 }
 
 .bg-white{
@@ -803,25 +793,17 @@ video {
   padding: 0.5rem;
 }
 
-.p-\[180px\]{
-  padding: 180px;
-}
-
 .p-10{
   padding: 2.5rem;
 }
 
-.p-\[80px\]{
-  padding: 80px;
+.p-\[20px\]{
+  padding: 20px;
 }
 
-.p-5{
-  padding: 1.25rem;
-}
-
-.px-\[150px\]{
-  padding-left: 150px;
-  padding-right: 150px;
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pt-\[100px\]{
@@ -832,41 +814,32 @@ video {
   padding-left: 100px;
 }
 
-.pb-4{
-  padding-bottom: 1rem;
-}
-
 .text-center{
   text-align: center;
 }
 
-.text-\[58px\]{
-  font-size: 58px;
+.text-\[32px\]{
+  font-size: 32px;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-\[30px\]{
+  font-size: 30px;
 }
 
-.text-\[48px\]{
-  font-size: 48px;
-}
-
-.text-\[90px\]{
-  font-size: 90px;
+.text-\[35px\]{
+  font-size: 35px;
 }
 
 .text-\[70px\]{
   font-size: 70px;
 }
 
-.text-\[80px\]{
-  font-size: 80px;
+.text-\[28px\]{
+  font-size: 28px;
 }
 
-.text-\[25px\]{
-  font-size: 25px;
+.text-\[15px\]{
+  font-size: 15px;
 }
 
 .text-\[20px\]{
@@ -899,4 +872,106 @@ video {
   background: -webkit-linear-gradient(#FF7C33,#FCE043,#FF7D7D);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.btn-grad{
+  border-width: 4px;
+}
+
+@media (min-width: 768px){
+  .md\:right-\[340px\]{
+    right: 340px;
+  }
+
+  .md\:-top-\[1px\]{
+    top: -1px;
+  }
+
+  .md\:left-\[350px\]{
+    left: 350px;
+  }
+
+  .md\:top-\[80px\]{
+    top: 80px;
+  }
+
+  .md\:mt-auto{
+    margin-top: auto;
+  }
+
+  .md\:h-\[78px\]{
+    height: 78px;
+  }
+
+  .md\:h-\[800px\]{
+    height: 800px;
+  }
+
+  .md\:h-\[50px\]{
+    height: 50px;
+  }
+
+  .md\:w-\[468px\]{
+    width: 468px;
+  }
+
+  .md\:w-\[334px\]{
+    width: 334px;
+  }
+
+  .md\:w-\[455px\]{
+    width: 455px;
+  }
+
+  .md\:w-\[300px\]{
+    width: 300px;
+  }
+
+  .md\:flex-wrap{
+    flex-wrap: wrap;
+  }
+
+  .md\:space-x-\[150px\] > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(150px * var(--tw-space-x-reverse));
+    margin-left: calc(150px * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:p-\[200px\]{
+    padding: 200px;
+  }
+
+  .md\:p-\[80px\]{
+    padding: 80px;
+  }
+
+  .md\:px-\[120px\]{
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .md\:text-\[58px\]{
+    font-size: 58px;
+  }
+
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-\[48px\]{
+    font-size: 48px;
+  }
+
+  .md\:text-\[90px\]{
+    font-size: 90px;
+  }
+
+  .md\:text-\[80px\]{
+    font-size: 80px;
+  }
+
+  .md\:text-\[25px\]{
+    font-size: 25px;
+  }
 }

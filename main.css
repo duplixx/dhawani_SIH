@@ -20,3 +20,6 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.btn-grad{
+    border-width: 4px;
+}
