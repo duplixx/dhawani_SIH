@@ -9,9 +9,21 @@ html{
 body{
     background-color: #1E1E1E;
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#preloader {
+    background: #000
+    no-repeat center center;
+    background-size: 30%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    animation-delay: 20ms;
+  }
 .container{
     background-color: #1E1E1E;
     overflow: hidden;

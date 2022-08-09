@@ -606,6 +606,10 @@ video {
   }
 }
 
+.fixed{
+  position: fixed;
+}
+
 .absolute{
   position: absolute;
 }
@@ -927,6 +931,10 @@ video {
   transition-duration: 150ms;
 }
 
+.delay-100{
+  transition-delay: 100ms;
+}
+
 .duration-75{
   transition-duration: 75ms;
 }
@@ -937,6 +945,18 @@ video {
 
 .ease-in{
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+#preloader {
+  background: #000
+    no-repeat center center;
+  background-size: 30%;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  -webkit-animation-delay: 20ms;
+          animation-delay: 20ms;
 }
 
 .container{

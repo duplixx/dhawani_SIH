@@ -11,7 +11,9 @@
 </head>
 
 <body>
+  
   <div class="container h-full w-full">
+    <div id="preloader"><lottie-player src="./waves.json" loop autoplay class="delay-180"></lottie-player></div>
     
     <!-- hero section -->
     
@@ -104,9 +106,13 @@
     </footer>
   </div>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@1.5.7/dist/lottie-player.js"></script>
   <script>
     AOS.init();
-    object.style.scrollBehavior="smooth"
+    var loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
   </script>
 </body>
 
