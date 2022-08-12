@@ -931,10 +931,6 @@ video {
   transition-duration: 150ms;
 }
 
-.delay-100{
-  transition-delay: 100ms;
-}
-
 .duration-75{
   transition-duration: 75ms;
 }
@@ -1135,5 +1131,13 @@ video {
 
   .md\:text-\[25px\]{
     font-size: 25px;
+  }
+
+  .md\:text-\[5px\]{
+    font-size: 5px;
+  }
+
+  .md\:text-\[52px\]{
+    font-size: 52px;
   }
 }
